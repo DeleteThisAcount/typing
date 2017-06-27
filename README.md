@@ -1,4 +1,4 @@
-# DeleteThisAcount.github.io
+# Typing Page
 Type here. Use it when you get a new keyboard.... or when you want to test your typing skills. Or if you just want to keep a note.
 
-https://deletethisacount.github.io/
+https://deletethisacount.github.io/typing/
