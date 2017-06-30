@@ -2,10 +2,22 @@
 <html>
 <head>
 <title>DeleteThisAcount's Typing Page</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+<script>
+ $(document).ready(function() {
+  var clearedTextBox = 0;
+  $("#textbox").focusin(function() {
+   if (clearedTextBox == 0) {
+    $("#textbox").html("");
+   }
+  }
+ }
+</script>
 <font face="verdana">
-<div contenteditable="true">
+<div contenteditable="true" id="textbox">
 Type here!
 </div>
+</font>
 </html>
  
