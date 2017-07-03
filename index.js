@@ -1,8 +1,11 @@
-$(document).ready(function() {
+window.onload = (function() {
+    console.log("onload")
     var clearedTextBox = 0;
-    $("#textbox").focusin(function() {
+    var text_box = document.getElementById("textbox");
+    text_box.onclick = (function() {
+        console.log("onclick")
         if (clearedTextBox === 0) {
-            $("#textbox").html("");
+            text_box.innerHTML = "";
             clearedTextBox = 1
         }
     });
